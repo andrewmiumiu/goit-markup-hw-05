@@ -441,6 +441,7 @@ img {
 }
 .footer-form {
   display: flex;
+  gap: 24px;
 }
 .footer-contacts-text {
   margin-bottom: 16px;
@@ -468,6 +469,23 @@ img {
 }
 .placeholder {
   color: #ffffff;
+}
+.footer-submit-btn {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
 }
 .footer-container {
   display: flex;
