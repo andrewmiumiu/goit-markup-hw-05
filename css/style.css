@@ -48,7 +48,6 @@ img {
 }
 .header-navigation {
   display: flex;
-  gap: 40px;
   align-items: center;
 }
 .header {
@@ -467,7 +466,7 @@ img {
   border-radius: 4px;
   color: #ffffff;
 }
-.placeholder {
+.footer-email::placeholder {
   color: #ffffff;
 }
 .footer-submit-btn {
@@ -498,7 +497,7 @@ img {
   margin-right: 120px;
 }
 .footer-contacts-wrap {
-  padding-left: 80px;
+  margin-left: auto;
 }
 /*========================MODAL========================*/
 .modal-overlay {
